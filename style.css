@@ -1,3 +1,42 @@
+/* Media Query für Tablets und kleinere Bildschirme */
+@media screen and (max-width: 768px) {
+    #titleListe {
+      padding-left: 50px;
+      padding-top: 40px;
+    }
+  
+    .card-container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .card {
+      width: 45%; /* Ändere die Breite der Karten für Tablets */
+    }
+  }
+  
+  /* Media Query für Mobiltelefone und sehr kleine Bildschirme */
+  @media screen and (max-width: 480px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    #titleListe {
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+  
+    .card-container {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100%
+    }
+  
+    .card {
+      width: 10rem; /* Ändere die Breite der Karten für Mobiltelefone */
+      margin: 10px 0; /* Reduziere den vertikalen Abstand zwischen den Karten */
+    }
+  }
 body {
     font-family: 'Kavoon', cursive;
     background-color: #F9F4DF;
