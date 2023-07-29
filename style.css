@@ -1,0 +1,110 @@
+body {
+    font-family: 'Kavoon', cursive;
+    background-color: #F9F4DF;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.navbar {
+    background-color: #9110F6; /* Hintergrundfarbe der Navbar */
+    color: #9110F6; /* Schriftfarbe der Links in der Navbar */
+    width: 100%;
+    padding: 15px 0;
+}
+  
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Verwendet das Flexbox-Layout für die horizontale Anordnung der Links */
+}
+  
+.navbar li {
+    margin: 0 15px; /* Abstände zwischen den Links */
+}
+  
+.navbar li a {
+    text-decoration: none; /* Entfernt den Unterstrich aus den Links */
+    color: #fff; /* Schriftfarbe der Links */
+    padding: 10px; /* Abstände innerhalb der Links */
+}
+  
+  /* Ändern Sie die Farbe der Links, wenn der Mauszeiger darüber schwebt */
+.navbar li a:hover {
+    background-color: #555;
+}
+
+
+#titleListe {
+    padding-left: 300px;
+    padding-top: 80px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+.card {
+    position: relative;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 0 0 10px 0;
+    width: 17rem; /* Jeweils 30% Breite, damit 3 Karten nebeneinander passen */
+    height: 24rem;
+    margin: 10px;
+    margin: 0  30px 60px 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+
+}
+.card img {
+    width: 100%;
+    max-height: 230px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #000000;
+    object-fit: contain;
+}
+.card-title {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Arial, sans-serif;
+
+}
+.card-description {
+    margin-top: 2rem;
+}
+.card-price {
+    margin-top: 10px;
+    color: #000000;
+    padding-right: 1rem;
+    text-align: right;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+}
+.card-button {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #9110F6;
+    color: #fff;
+    border: none;
+    border-top: 1px solid #000000;
+    border-radius:0 0 10px 10px;
+    padding: 10px;
+    cursor: pointer;
+    bottom: 0px;
+    font-size: 1em;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #F9F4DF;
+    font-family: 'Kavoon', cursive;
+}
