@@ -130,15 +130,23 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #titleListe {
+        word-wrap: break-word;
+        font-size: 1.5rem;
+        margin-left: 0;
+        padding-top: 50px 20px;
+    }
+
     .navbar {
         padding: 15px 20px; /* Anpassung des Navbar-Paddings für die Navbar auf Smartphones */
         position: fixed;
         top: 0;
         z-index: 999;
-    }
-    #titleListe {
-      padding-left: 50px;
-      padding-top: 40px;
     }
   
     .card-container {
