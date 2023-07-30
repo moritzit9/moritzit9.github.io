@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Kavoon', cursive;
     background-color: #F9F4DF;
@@ -13,7 +12,8 @@ body {
     width: 100%;
     height: 20px;
     padding: 15px 0;
-    position: relative;
+    position: fixed;
+    top: 0;
 }
   
 .navbar ul {
@@ -43,6 +43,7 @@ body {
 
 #titleListe {
     margin-left: 300px;
+    margin-top: 60px;
     padding-top: 0;
 }
 .card-container {
@@ -144,14 +145,17 @@ a {
     }
 
     #titleListe {
-        text-align: center;
+        word-wrap: break-word;
         font-size: 1.5rem;
         margin-left: 0;
-        padding-top: 0px;
+        padding-top: 50px 20px;
     }
 
     .navbar {
         padding: 15px 20px; /* Anpassung des Navbar-Paddings für die Navbar auf Smartphones */
+        position: fixed;
+        top: 0;
+        z-index: 999;
     }
 
     .navbar ul {
