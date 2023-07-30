@@ -121,9 +121,21 @@ a {
   #titleList {
     text-align: center;
   }
+  .navbar {
+    padding: 15px 20px; /* Anpassung des Navbar-Paddings für die Navbar auf Smartphones */
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
 }
 
 @media screen and (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px; /* Anpassung des Navbar-Paddings für die Navbar auf Smartphones */
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
     #titleListe {
       padding-left: 50px;
       padding-top: 40px;
